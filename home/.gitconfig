@@ -1,12 +1,20 @@
 [user]
-	name = Julien Ponge
-	email = julien.ponge@gmail.com
+	name = Zasu Pitts
+	email = grafpoo@gmail.com
 
 [color]
 	ui = true
 
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	l = log --pretty=format:\"%h - %an, %ar : %s\"
+
 [push]
-	default = matching
+	default = simple
 
 [rerere]
 	enabled = true
@@ -14,12 +22,16 @@
 [credential]
 	helper = osxkeychain
 [core]
-	excludesfile = /Users/jponge/.gitignore_global
+	excludesfile = /Users/jguthrie/.gitignore_global
+	hooksPath = /Users/jguthrie/workspace/git-hooks-core
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
 	template = /Users/jponge/.stCommitMsg
+
+[http]
+	sslVerify = false

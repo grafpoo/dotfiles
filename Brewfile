@@ -1,10 +1,11 @@
 # General
 
 tap 'homebrew/bundle'
-tap 'caskroom/cask'
+tap 'honmebrew/cask-cask'
 tap 'homebrew/cask-fonts'
 tap 'buo/cask-upgrade'
 tap 'wagoodman/dive'
+tap 'cloudfoundry/tap'
 
 # Casks
 
@@ -92,6 +93,8 @@ brew 'fzf'
 brew 'vim'
 brew 'nano'
 brew 'aspell'
+
+brew 'cf-cli'
 
 brew 'curl'
 brew 'wget'
