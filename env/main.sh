@@ -8,3 +8,4 @@ alias ls='ls -G'
 #export EDITOR='nano -w'
 
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/Users/jguthrie/bin:/Users/jguthrie/bin/rar:$PATH"
