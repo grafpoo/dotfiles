@@ -29,5 +29,5 @@ shrink2dir() {
 alias dcdu="docker-compose down && docker-compose up -d"
 
 freemyapp() {
-	"sudo xattr -r -d com.apple.quarantine "$1"
+	sudo xattr -r -d com.apple.quarantine "$1"
 }
