@@ -1,7 +1,7 @@
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export JAVA_HOME="$(/usr/libexec/java_home -v 1.11)"
+export JAVA_HOME="$(/usr/libexec/java_home -v 11)"
 export PATH=$JAVA_HOME/bin:$PATH
 
 dbg() {
@@ -26,3 +26,8 @@ shrink2dir() {
 }
 
 #source $HOME/.docker_aliases
+alias dcdu="docker-compose down && docker-compose up -d"
+
+freemyapp() {
+	"sudo xattr -r -d com.apple.quarantine "$1"
+}
