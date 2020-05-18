@@ -10,3 +10,4 @@ alias ls='ls -G'
 alias ftp='/usr/local/Cellar/inetutils/1.9.4_2/bin/gftp'
 
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/Users/jguthrie/bin:/Users/jguthrie/bin/rar:$PATH"
