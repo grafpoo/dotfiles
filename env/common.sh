@@ -31,3 +31,12 @@ alias dcdu="docker-compose down && docker-compose up -d"
 freemyapp() {
 	sudo xattr -r -d com.apple.quarantine "$1"
 }
+
+setopt NO_HIST_VERIFY
+
+export TOMCAT_HOME=/usr/local/Cellar/tomcat/9.0.37/libexec/
+
+export PATH=$HOME/.krew/bin:$PATH
+
+eval "$(direnv hook zsh)"
+
