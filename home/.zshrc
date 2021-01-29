@@ -9,7 +9,9 @@ export ZSH="/Users/jguthrie/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="robbyrussell"
+#ZSH_THEME=cobalt2
+#ZSH_THEME=wedisagree
+ZSH_THEME=bira
 
 # Cool themes: robbyrussell, agnoster, juanghurtado
 
