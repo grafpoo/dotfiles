@@ -12,7 +12,8 @@ export ZSH="/Users/jguthrie/.oh-my-zsh"
 #ZSH_THEME=cobalt2
 #ZSH_THEME=wedisagree
 #ZSH_THEME=bira
-ZSH_THEME=gozilla
+#ZSH_THEME=gozilla
+ZSH_THEME=zhann
 
 # Cool themes: robbyrussell, agnoster, juanghurtado
 
